@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Maker of Glory</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+        <script language=JavaScript>
+			//Disable right click script III- By Renigade (renigade@mediaone.net)
+			//For full source code, visit http://www.dynamicdrive.com
+			
+			var message="";
+
+			function clickIE() {if (document.all) {(message);return false;}}
+			function clickNS(e) {if 
+			(document.layers||(document.getElementById&&!document.all)) {
+				if (e.which==2||e.which==3) {(message);return false;}}}
+				if (document.layers) 
+				{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+				else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+			
+			document.oncontextmenu=new Function("return false")
+		</script>
+    </head>
+    
+    <body>
+        <div id="bag">
+            <div id="nav">
+                <ul>
+                    <li><a href="#">Books & Research</a></li>
+                    <li><a href="#">Technical Security</a></li>
+                    <li><a href="#">Culture & History</a></li>
+                </ul>
+            </div><!--nav-->
+            
+            <div id="main">
+                <h1>أهلاً بكم في موقع صانع المجد</h1>
+                <p>نشر مقالات وأبحاث وكتب العلماء التي نحتاجها في نهضة الأمة <br>
+                نشر المواضيع المفيدة وعلى رأسها التقنية والأمنية والثقافية والتاريخية<br>
+                نشر  أخبار الأمة<br>
+                 (نهضة الأمة .. ضرورة حياة)</p>
+                <a href="https://glorymaker.net/" target="_blank">موقع صانع المجد</a>
+            </div><!--main-->
+            
+            <div id="left">
+                <a href="img/photo.jpg"><img src="img/photo.jpg" width="350" alt="Maker of Glory"/></a>
+                <h3>نهضة الأمة .. ضرورة حياة</h3>
+            </div><!--left-->
+            
+            <div id="right">
+                <div id="right-1">
+                    <h2>Telegram</h2>
+                    <p>تفضل بالدخول إلى قناتنا على التلجرام</p>
+                    <a href="https://t.me/gloryMaker" target="_blank">Maker of Glory</a>
+                </div><!--right-1-->
+                
+                <div id="right-r">
+                    <h2>Instagram</h2>
+                    <p>تفضل بالدخول إلى صفحتنا على انستغرام</p>
+                    <a href="https://www.instagram.com/GloryMakerNet/" target="_blank">Glory_Maker12</a>
+                </div><!--right-r-->
+               
+            </div><!--right-->
+            <div id="search">
+                <form>
+                    <input type="search" value="" size="125"/>
+                    <input type="button" value="search"/>
+                </form>
+            </div><!--search-->
+        </div><!--bag-->
+    </body>
+</html>

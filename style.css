@@ -1,0 +1,28 @@
+/* CSS Document */
+
+#bag {margin:20px auto; width:900px;}
+#nav {background-color:#4d4d4d; padding:4px; border-top:13px solid white; border-bottom:13px solid white;}
+#nav ul li {display:inline; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:bold;}
+#nav ul li a {text-decoration:none; color:#fff; padding:8px;}
+#nav ul li a:hover {background-color:#fff; color:#4d4d4d; border-top:13px solid white; border-bottom:13px solid white;}
+
+h1 {font-size:xx-large; padding-left:70px;}
+h2 {font-size:x-large; padding-left:55px;}
+p {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;}
+
+#left {float:left;}
+#left img {border:5px solid #4d4d4d;}
+#left h3 {text-align:center; padding:5px;}
+
+#main {float:right; width:450px; background-color:#f2f2f2; padding:10px;}
+#main p {padding-left:20px; line-height:25px; margin-bottom:30px;}
+#main a {padding-left:330px;}
+
+#right {float:right; width:470px; margin-bottom:40px;}
+#right p {line-height:20px; text-align:justify; padding-left:11px;}
+#right-1 {width:210px; float:left; background-color:#f2f2f2; margin:30px 0; padding:5px 10px;}
+#right-1 a {padding-left:63px;}
+#right-r {width:210px; float:right; background-color:#f2f2f2; margin:30px 0; padding:5px 10px;}
+#right-r a {padding-left:63px;}
+
+#search {clear:both;}
